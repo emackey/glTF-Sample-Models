@@ -15,7 +15,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="AlphaBlendLabels.svg">
   <defs
      id="defs4">
@@ -49,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1167763"
-     inkscape:cx="198.57143"
+     inkscape:cx="53.063328"
      inkscape:cy="379.24049"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -57,14 +57,15 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1137"
-     inkscape:window-x="1272"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="74.321061,768.28278"
        orientation="1,0"
-       id="guide4181" />
+       id="guide4181"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -74,7 +75,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -119,76 +120,75 @@
        y="330.64203" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="182.95692"
        y="377.20462"
-       id="text4136"
-       sodipodi:linespacing="125%"><tspan
+       id="text4136"><tspan
          sodipodi:role="line"
          id="tspan4138"
          x="182.95692"
          y="377.20462"
-         style="text-align:end;text-anchor:end">0.0 -</tspan><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end">.00 -</tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="427.20462"
          id="tspan4140"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="477.20462"
          id="tspan4142"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
          x="182.95692"
          y="527.20459"
          id="tspan4144"
-         style="text-align:end;text-anchor:end">2.5 -</tspan><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end">.25 -</tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="577.20459"
          id="tspan4146"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="627.20459"
          id="tspan4148"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
          x="182.95692"
          y="677.20459"
          id="tspan4150"
-         style="text-align:end;text-anchor:end">5.0 -</tspan><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end">.50 -</tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="727.20459"
          id="tspan4152"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="777.20459"
          id="tspan4154"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
          x="182.95692"
          y="827.20459"
          id="tspan4156"
-         style="text-align:end;text-anchor:end">7.5 -</tspan><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end">.75 -</tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="877.20459"
          id="tspan4158"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
-         x="182.95692"
+         x="197.01942"
          y="927.20459"
          id="tspan4160"
-         style="text-align:end;text-anchor:end" /><tspan
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end"> </tspan><tspan
          sodipodi:role="line"
          x="182.95692"
          y="977.20459"
          id="tspan4162"
-         style="text-align:end;text-anchor:end">1.0 -</tspan></text>
+         style="font-size:40px;line-height:1.25;text-align:end;text-anchor:end">1.0 -</tspan></text>
     <rect
        style="fill:url(#linearGradient4221);fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4164-8"
