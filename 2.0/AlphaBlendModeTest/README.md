@@ -28,7 +28,7 @@ Note that a red "X" mark has appeared next to `OPAQUE`, due to a green checkmark
 
 ![screenshot](screenshot/BlendFail.jpg)
 
-In the above screenshot, it appears that alpha blending is not available, or not enabled when a model requests it.  This is also a failure.
+In the above screenshot, it appears that alpha blending is not available, or not enabled when a model requests it.  This is also a test failure, and could be due to a missing feature or other issues in the rendering engine.
 
 Note that a red "X" mark has appeared next to `BLEND`.  This "X" has zero alpha values, and should be blended away, revealing a green checkmark behind it.
 
@@ -46,7 +46,7 @@ Note that alpha blending should not be applied here:  Each texel is either fully
 
 ![screenshot](screenshot/MissingBorder.png)
 
-When a texture gets farther from the camera, a process called mipmapping may be used to blend texels (texturemap pixels) together.  This particular test model has a very thin opaque border adjacent to a lot of transparent texels.  When mipmapping blends these together, the resulting alpha values can land in the middle someplace.  Setting a high alpha mask cutoff value can cause these blended texels to be discarded.  This is not considered a failure for the purpose of this particular test, however, if you see this effect in your own models you may wish to set a lower cutoff value or increase the thickness of the affected area.
+When a texture gets farther from the camera, a process called mipmapping may be used to blend texels (texturemap pixels) together.  This particular test model has a very thin opaque border adjacent to a lot of transparent texels.  When mipmapping blends these together, the resulting alpha values can land in the middle someplace.  Setting a high alpha mask cutoff value can cause these blended texels to be discarded.  This is not considered a failure for the purpose of this particular test.  However, if you see this effect in your own models, you may wish to set a lower cutoff value or increase the thickness of the affected area.
 
 ## Problem: `alphaCutoff` Not Respected
 
@@ -54,11 +54,11 @@ When a texture gets farther from the camera, a process called mipmapping may be 
 
 In the above screenshot, the requested `alphaCutoff` value is not being respected, and the default value of `0.5` appears to be applied regardless of the setting.  This is a test failure.
 
-## Problem: Incorrect Default Cutoff
+## Problem: No Default Cutoff
 
 ![screenshot](screenshot/CutoffDefaultFail.jpg)
 
-In this screenshot, it appears that the rendering engine may be using a value of `0.0` instead of `0.5` for the default value of `alphaCutoff` when the model does not specify a particular value.  The glTF spec names `0.5` as the default, so this is a test failure.
+In this screenshot, it appears that the rendering engine is not using the value `0.5` for the default value of `alphaCutoff` when the model does not specify a particular value.  The glTF specification [names `0.5` as the default](https://github.com/KhronosGroup/glTF/blob/0890b76c62cc762ce82d4010df9bfebb1634839b/specification/2.0/schema/material.schema.json#L68), so this is a test failure.
 
 ## License Information
 
